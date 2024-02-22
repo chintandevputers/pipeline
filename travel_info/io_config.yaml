@@ -82,11 +82,11 @@ default:
 
   # PostgresSQL
   POSTGRES_CONNECT_TIMEOUT: 10
-  POSTGRES_DBNAME: travel_data
+  POSTGRES_DBNAME: your_db
   # POSTGRES_SCHEMA: public # Optional
-  POSTGRES_USER: postgres
-  POSTGRES_PASSWORD: ramramram
-  POSTGRES_HOST: database-1.c3r4rsuoso6r.ap-south-1.rds.amazonaws.com
+  POSTGRES_USER: your_url
+  POSTGRES_PASSWORD: your_pass
+  POSTGRES_HOST: host_url
   POSTGRES_PORT: 5432
   
 

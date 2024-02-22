@@ -11,11 +11,11 @@ class CalculateData(Resource):
     def get(self):
         # Connect to PostgreSQL database
         conn = psycopg2.connect(
-            dbname="travel_data",
-            user="postgres",
-            password="ramramram",
-            host="database-1.c3r4rsuoso6r.ap-south-1.rds.amazonaws.com",
-            port="5432",
+            dbname="your_db",
+            user="your_user",
+            password="your_password",
+            host="host_url",
+            port="your_port",
         )
         cursor = conn.cursor()
 
